@@ -1,0 +1,68 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/horizontally.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input {
+
+    padding: 20px 80px;
+    border-radius: 50em;
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    -ms-border-radius: 50em;
+    -o-border-radius: 50em;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    right: 40%;
+    height: 50px;
+    width: 40px;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 5px;
+    border: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    top: 0%;
+    left: 0%;
+    background-color: grey;
+    background: linear-gradient(rgba(155, 180, 122, 0.2), rgba(155, 182, 122, 0.2));
+
+}
+
+ul li {
+    margin: 10px;
+    text-transform: uppercase;
+    color: red;
+}

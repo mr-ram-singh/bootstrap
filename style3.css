@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap');
+
+/* #################### new ######################### */
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background: #e6e6e6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgba(188, 185, 170, 0.2), rgba(188, 185, 170, 0.2))#f0f8fb;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+}
+
+.order {
+    margin-right: 5%;
+    text-decoration: none;
+    border-radius: 10px;
+    background: red;
+    border: 1px solid gray;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(drink.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+input {
+    position: absolute;
+    padding: 20px 50px;
+    top: 50%;
+    left: 40%;
+    border-radius: 50em;
+    outline: none;
+
+}
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    top: 50%;
+    left: 55.5%;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* ####################### image ######################## */
+
+.image {
+    height: 2000px;
+}
+
+
+.image img {
+    float: left;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image img:hover {
+   margin-bottom: 2%;
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+
+.star {
+    float: left;
+    width: 25%;
+}
+
+.star::after {
+    content: "5.0";
+}
+
+span {
+    color: orange;
+}
+
+.content {
+    float: left;
+    width: 25%;
+
+}
+
+/* ################ break-fast ############################ */
+
+.break-fast {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.break-fast .box1 {
+    height: 200px;
+    width: 25%;
+}
+
+.second-break-fast .box2 {
+    height: 200px;
+    width: 25%;
+
+}
+
+.second-break-fast {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ######################## founder ############################# */
+
+.founder {
+    box-shadow: 1px 1px 1px 1px gray;
+    height: 500px;
+    width: 20%;
+    float: left;
+    border-radius: 20px;
+
+} 
+section #co{
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.founder p{
+    float: left;
+}

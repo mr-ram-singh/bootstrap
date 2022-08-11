@@ -1,0 +1,159 @@
+.main-container div {
+    line-height: 80px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: beige;
+}
+
+/* ########################## flex-flow : row wrap #################### */
+
+.container div {
+    line-height: 75px;
+    width: 100px;
+    background-color: blue;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: blanchedalmond;
+}
+
+/* ######################## .justify-content: center ################# */
+
+.header div {
+    line-height: 80px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ########################### flex-start ##################### */
+.justify div {
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: #ad8686cd;
+}
+
+.justify {
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: blanchedalmond;
+
+}
+
+/* ###################### flex: :end ###################### */
+
+.content div{
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color:turquoise;
+
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+    background-color: wheat;
+}
+
+/* ######################### .justify-content: space-between; ################ */
+
+.space div{
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: violet;
+
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid burlywood;
+}
+
+/* ####################### justify-content: space-around ########################## */
+
+
+.around div{
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: #666
+
+}
+.around {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+
+/* ######################## align-item: center ################### */
+
+
+.center div{
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color:#dcdcdc ;
+
+}
+.center {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+}
+
+
+/* #################### align-items: flex-start ################## */
+
+
+.align div{
+    line-height: 75px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color:#dcdcdc ;
+
+}
+.align {
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid grey;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&family=Rubik+Moonrocks&family=Yeseva+One&display=swap');
+
+body {
+
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yeseva One', cursive; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 95%;
+}
+
+.box-1 {
+    width: 54%;
+    background: #f6f6f6;
+    box-shadow: 1px 1px 1px 1px #bfbfbf;
+    height: 361px;
+    margin-left: 6%;
+}
+
+.box-2 {
+    position: relative;
+    height: 357px;
+    box-shadow: 1px 1px 1px 1px #bfbfbf;
+    width: 30%;
+}
+
+input {
+    background-color: #f6f6f6;
+    position: relative;
+    padding: 20px 50px;
+    border-top-left-radius: 50em;
+    border-bottom-left-radius: 50em;
+}
+
+button {
+    padding: 20px;
+    position: absolute;
+    margin-right: 0;
+    border-top-right-radius: 50em;
+    border-end-end-radius: 50em;
+    background: rgb(55, 55, 194);
+    cursor: pointer;
+}

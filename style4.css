@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&family=Rubik+Moonrocks&family=Yeseva+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yeseva One', cursive;
+}
+/* ########################## :start ##################### */
+.header-1 {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(122, 151, 133, 0.2), rgba(122, 151, 133, 0.2)), url(./drink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box-1 {
+    width: 36%;
+    background: #f6f6f6;
+   padding: 6%;
+    height: 361px;
+    margin-left: 6%;
+    box-shadow: 1px 1px 1px 1px #bfbfbf;
+}
+
+.box-2 {
+    margin-right: 3%;
+    position: relative;
+    height: 357px;
+    box-shadow: 1px 1px 1px 1px #bfbfbf;
+    width: 30%;
+}
+
+.box-2:hover{
+    cursor: pointer;
+    background:#f2f2f2 ;
+}
+
+input {
+    background-color: #f6f6f6;
+    position: relative;
+    padding: 20px 50px;
+    border-top-left-radius: 50em;
+    border-bottom-left-radius: 50em;
+}
+
+button {
+    padding: 20px;
+    position: absolute;
+    margin-right: 0;
+    border-top-right-radius: 50em;
+    border-end-end-radius: 50em;
+    background: rgb(55, 55, 194);
+    cursor: pointer;
+}
+
+button:hover{
+    background: #d8fa4ff3;
+    font-family: 'Montserrat';
+}
+/* ################################# close ############################ */
+
+
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   background: snow;
+}
+
+.hr {
+    text-align: center;
+    width: 50%;
+    background-color: red;
+}
+
+.flex {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 400px;
+    width: 35%;
+    background: #ffe6e6;
+    box-shadow: 1px 1px 2px 1px #cdcdcd;
+}
+
+.image2 {
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+    height: 400px;
+    width: 35%;
+    background: #ffe6e6;
+    box-shadow: 1px 1px 2px 1px #cdcdcd;
+}
+
+.image p {
+    text-align: center;
+}
+
+.image2:hover {
+    box-shadow: 3px 2px 3px 2px #8b8282;
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+.image:hover {
+    box-shadow: 3px 2px 3px 2px #625b5b;
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+img {
+   
+    height: 196px;
+    width: 100%;
+}
+
+
+/* ###################  input style  ########################## */
+
+.subscribe {
+    height: 1500px;
+
+}
+
+.box {
+    width: 90%;
+    margin-left: 5%;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    /* box-shadow: 1px 1px 1px 1px #8b8282; */
+}
+
+.box1 {
+    margin-top: 5%;
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 50%;
+    background: #cdcdcd;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #8b8282;
+}
+
+.view {
+    bottom: 3%;
+    font-size: 13px;
+    position: absolute;
+    color: white;
+    left: 5%;
+}
+
+.views {
+    bottom: 3%;
+    font-size: 13px;
+    position: absolute;
+    color: grey;
+    left: 5%;
+}
+
+.box1 h2,
+span {
+    position: absolute;
+}
+
+span {
+    text-transform: uppercase;
+    color: orange;
+    bottom: 38%;
+    left: 5%;
+}
+
+.box1 h2 {
+    text-decoration: none;
+    color: white;
+    left: 5%;
+    bottom: 15%;
+}
+
+.box2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #8b8282;
+}
+
+.box2 h3 {
+    word-spacing: 2px;
+    bottom: 13%;
+    left: 5%;
+    position: absolute;
+}
+
+.box1:hover {
+    cursor: pointer;
+    background: #c1d5f5;
+}
+
+.box2:hover {
+    cursor: pointer;
+}
+
+/* ################## box image ################## */
+
+.box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid grey; */
+}
+
+.content-box1 {
+    position: relative;
+    height: 350px;
+    width: 20%;
+    margin: 28px;
+    box-shadow: 1px 1px 1px 1px #8b8282;
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+.content-box1 h4 {
+    text-decoration: none;
+    position: absolute;
+    bottom: 12%;
+    font-size: 20px;
+    left: 5%;
+}
+
+.content-box1:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 1px 2px #8b8282;
+}
+
+/* ######################### decoration none ######################### */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(73, 73, 239);
+}
+
+.a {
+    color: white;
+}
+
+.a:hover {
+    color: rgb(81, 81, 223);
+}
+
+/* ######################## content-box2 ####################### */
+
+.content {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-box2 {
+    display: inline-flex;
+    height: 400px;
+    width: 35%;
+    background: #f6f6f6;
+    box-shadow: 1px 1px 1px 1px #8b8282;
+    margin-left: 10%;
+    margin: 10px;
+}
+
+.main-content {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.co-founder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: flex-start;
+    position: relative;
+    height: 900px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.side-bar {
+    width: 75%;
+    box-shadow: 1px 1px 1px 1px #8b8282;
+    height: 384px;
+}
+
+.short-side-bar {
+    box-shadow: 1px 1px 1px 1px #8b8282;
+    width: 75%;
+    height: 100px;
+}

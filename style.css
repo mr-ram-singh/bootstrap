@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 70px;
+    transition: width 2s, height 3s ;
+    background-color: blue;
+    text-align: center;
+    -webkit-transition: width 2s, height 5s ;
+    -moz-transition: width 2s, height 3s ;
+    -ms-transition: width 2s, height 3s ;
+    -o-transition: width 2s, height 3s ;
+}
+
+div:hover {
+    height: 300px;
+    width: 350px;
+    cursor: pointer;
+}
